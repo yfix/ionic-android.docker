@@ -1,0 +1,8 @@
+version: '2'
+services:
+  ionic-android:
+    build: .
+    container_name: yfix_ionic_android
+    ports:
+      - 30085:8080
+    restart: unless-stopped
